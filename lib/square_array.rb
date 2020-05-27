@@ -1,3 +1,10 @@
 def square_array(array)
-  # your code here
+  index = 0
+  new_array = []
+  while index < array.length do
+    item = array[index] ** 2
+    new_array.push(item)
+    index += 1
+  end
+  return new_array
 end
